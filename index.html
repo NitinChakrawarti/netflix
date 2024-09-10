@@ -7,6 +7,12 @@
     <title>Netflix</title>
     <link rel="shortcut icon" href="images/devoic.jpg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .scroll_bar::-webkit-scrollbar{
+        display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,8 +20,8 @@
 
     <!-- Banner section start  -->
 
-    <section class="w-[100%] h-[100vh] bg-[url('images/netflix-background-home.jpg')] bg-center bg-cover ">
-        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.7)]">
+    <section class="w-[100%] h-[105vh] bg-[url('images/netflix-background-home.jpg')] bg-center bg-cover ">
+        <div class="w-[100%] h-[105vh] bg-[rgba(0,0,0,0.7)]">
             <nav class="max-w-[1170px] mx-auto">
                 <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[.5vmax]">
                     <figure>
@@ -51,12 +57,51 @@
                         placeholder="Email address">
                     <button
                         class="bg-[#e50914] hover:bg-[#c11119] duration-300 w-[70%] h-[50px] ml-2 text-white px-1 py-1 font-bold rounded left-2/4 right-2/4 ml-auto mr-auto ">Get
-                        Started &nbsp;   ><img src="" alt=""></button>
+                        Started &nbsp; ><img src="" alt=""></button>
                 </form>
-
             </main>
         </div>
     </section>
+    <!-- tranding section starts here  -->
+    <div class="bg-black">
+        <section
+            class="border-t-4 border-red-800 rounded-t-[30%]  top-[-60px] relative h-[30vh] w-full bg-black flex  flex-col">
+            <h1 class="text-white text-2xl pt-14 ml-[8vmax]">Trending Now</h1>
+        </section>
+
+        <div class="flex flex-col justify-items-start top-[-140px] relative items-center">
+            <div
+                class="w-[70%] h-[300px]  z-10 text-white pt-8 px-6 overflow-x-auto whitespace-nowrap  scroll_bar">
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block ">
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+
+                </div>
+                <div class="h-[90%] w-[200px] border-2 border-white rounded-lg inline-block">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
 </body>
 
 </html>

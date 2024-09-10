@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,55 @@
     <link rel="shortcut icon" href="images/devoic.jpg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
 
 
-     <!-- Banner section start  -->
+    <!-- Banner section start  -->
 
-     <section class="w-[100%] h-[100vh] bg-[url('images/header-image.png')]">
+    <section class="w-[100%] h-[100vh] bg-[url('images/netflix-background-home.jpg')] bg-center bg-cover ">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.7)]">
+            <nav class="max-w-[1170px] mx-auto">
+                <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[.5vmax]">
+                    <figure>
+                        <img src="images/netflix-logo.png" alt="" class="w-[100px] pt-9 ">
+                    </figure>
+                    <div class="grid grid-cols-3 col-end-4 pt-7  ">
+                        <img src="images/languages-icon.png" alt="" width="30px" class="ml-[60px] sm:mt-[3px]">
+                        <select name="select" id="lang"
+                            class="h-[40px] text-white  bg-transparent border-solid font-bold border-2 border-slate-700 rounded px-2">
+                            <option value="Hindi" class="text-black">Hindi</option>
+                            <option value="English" class="text-black">English</option>
+                        </select>
 
-     </section>
+                        <button
+                            class="bg-[#e50914] hover:bg-[#c11119] w-[70%] h-[40px] ml-2 text-white px-1 py-1 font-bold rounded">
+                            Sign In
+                        </button>
+                    </div>
+                </div>
+            </nav>
+            <main class="flex justify-center items-center h-[80vh] text-center flex-col mt-[50px]">
+                <p class="text-white text-[4vmax] font-extrabold">
+                    Unlimited movies, TV <br> shows and more
+                </p>
+                <p class="text-white text-[1.2vmax] font-semibold">Starts at ₹149. Cancel anytime.</p>
+                <p class="text-white text-[1.2vmax] ">Ready to watch? Enter your email to create or restart your
+                    membership.
+                </p>
+
+                <form action="#" class="grid sm:grid-cols-2 mt-[1vmax] gap-2 ">
+                    <input type="email" name="" id=""
+                        class=" text-white h-[50px] bg-transparent border-solid font-bold border-2 border-slate-700 rounded px-3  "
+                        placeholder="Email address">
+                    <button
+                        class="bg-[#e50914] hover:bg-[#c11119] duration-300 w-[70%] h-[50px] ml-2 text-white px-1 py-1 font-bold rounded left-2/4 right-2/4 ml-auto mr-auto ">Get
+                        Started &nbsp;   ><img src="" alt=""></button>
+                </form>
+
+            </main>
+        </div>
+    </section>
 </body>
+
 </html>
